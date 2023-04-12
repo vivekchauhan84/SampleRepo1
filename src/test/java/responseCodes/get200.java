@@ -38,6 +38,12 @@ public class get200 {
 		int statuscode = response.getStatusLine().getStatusCode();
 
 		Assert.assertEquals(statuscode, 200);
+
+		System.out.println("This is for new branch");
+		System.out.println("This is for new branch1");
+		System.out.println("This is for new branch2");
+		System.out.println("This is for new branch3");
+
 	}
 
 	@Test
