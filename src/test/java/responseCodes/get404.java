@@ -37,5 +37,7 @@ public class get404 {
 		HttpGet get = new HttpGet(BASE_ENDPOINT);
 		response = client.execute(get);
 		Assert.assertEquals(response.getStatusLine().getStatusCode(), 404);
+		System.out.println("This is to test git commits")
+		System.out.println("This is to test git commits number 2")
 	}
 }
